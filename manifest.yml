@@ -1,0 +1,13 @@
+---
+applications:
+- name: ssvc-webhooks
+  command: node index.js
+  instances: 3
+  memory: 128M
+  default-route: true
+  buildpack: nodejs_buildpack
+  env: 
+    OPTIMIZE_MEMORY: "true"
+    SSC_USER: SSC_USER
+    SSC_PASSWORD: SSC_PASSWORD
+    SERVICE_URL: https://my1xxxxxx.de1.test.crm.cloud.sap/

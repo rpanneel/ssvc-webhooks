@@ -1,0 +1,17 @@
+{
+    "VCAP_SERVICES": {
+      "xsuaa": [
+        {
+          "name": "my-xsuaa",
+          "label": "xsuaa",
+          "plan": "application",
+          "credentials": {
+            "clientid": "your-client-id",
+            "clientsecret": "your-client-secret",
+            "url": "https://your-xsuaa-instance.authentication.sap.hana.ondemand.com",
+            "xsappname": "your-xsapp-name"
+          }
+        }
+      ]
+    }
+  }
